@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!--
-        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
-        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
-    -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap:https://ssl.gstatic.com http://*.openweathermap.org http://openweathermap.org  'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
-
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src 'self' data: http://*.openweathermap.org http://openweathermap.org  'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
 
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
@@ -38,17 +34,11 @@
                         <span id="temperature"></span>&deg;C
                         <img src="" />
                     </span>
-                </li>
-                <!--<li>Wind: <span id="wind"></span> knots</li>
-                <li>Humidity: <span id="humidity"></span> %</li>
-                <li>Visibility: <span id="visibility"></span> miles</li>
-                <li>Sunrise: <span id="sunrise"></span></li>
-                <li>Sunset: <span id="sunset"></span></li>-->
-            </ul>
 
+                </li>
+            </ul>
             <div id="error-msg" class="not-displayed">
             </div>
-
         </div>
 
         <footer data-role="footer" data-position="fixed">
