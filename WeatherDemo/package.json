@@ -1,0 +1,13 @@
+{
+  "name": "WeatherDemo",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "jquery-mobile": "^1.4.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0"
+  }
+}
